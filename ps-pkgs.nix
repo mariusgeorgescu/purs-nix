@@ -59,6 +59,26 @@ with self; {
 
     info = /package.nix;
   };
+
+  cip30 = {
+    src.git = {
+      repo = "https://github.com/mlabs-haskell/purescript-cip30";
+      rev = "8f1b34b48825fcec5e9c67f33e255770b1e0bc45";
+    };
+    info = {
+      version = "1.0.0";
+    };
+  };
+  cip30-typesafe = {
+    src.git = {
+      repo = "https://github.com/mlabs-haskell/purescript-cip30-typesafe";
+      rev = "d72e51fbc0255eb3246c9132d295de7f65e16a99";
+    };
+    info = {
+      version = "1.0.0";
+    };
+  };
+
 }
 // import ./official-package-set self
   // import ./ps-pkgs-ns.nix { inherit l; ps-pkgs = self; }
