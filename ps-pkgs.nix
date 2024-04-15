@@ -78,7 +78,15 @@ with self; {
       version = "1.0.0";
     };
   };
-
+  cardano-transaction-lib = {
+    src.git = {
+      repo = "https://github.com/Plutonomicon/cardano-transaction-lib";
+      rev = "9918ad51d6a7c9c2a4d4b59065d7e0d6fb0b0625";
+    };
+    info = {
+      version = "v7.0.0";
+    };
+  };
 }
 // import ./official-package-set self
   // import ./ps-pkgs-ns.nix { inherit l; ps-pkgs = self; }
