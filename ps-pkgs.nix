@@ -69,6 +69,7 @@ with self; {
       version = "1.0.0";
     };
   };
+
   cip30-typesafe = {
     src.git = {
       repo = "https://github.com/mlabs-haskell/purescript-cip30-typesafe";
@@ -78,6 +79,15 @@ with self; {
       version = "1.0.0";
     };
   };
+
+  cardano-serialization-lib = {
+    src.git = {
+      repo = "https://github.com/mlabs-haskell/purescript-cardano-serialization-lib/";
+      rev = "da2195fecac5442851dbc3ac3b6e1d805ced6c05";
+    };
+
+  };
+  
   cardano-transaction-lib = {
     src.git = {
       repo = "https://github.com/Plutonomicon/cardano-transaction-lib";
