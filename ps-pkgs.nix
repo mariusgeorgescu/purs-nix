@@ -82,12 +82,10 @@ with self; {
 
   cardano-serialization-lib = {
     src.git = {
-      repo = "https://github.com/mlabs-haskell/purescript-cardano-serialization-lib/";
+      repo = "https://github.com/mlabs-haskell/purescript-cardano-serialization-lib";
       rev = "da2195fecac5442851dbc3ac3b6e1d805ced6c05";
     };
-    info = {
-      version = "0.0.0";
-    };
+    info = {};
   };
   
   cardano-transaction-lib = {
