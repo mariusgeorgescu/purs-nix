@@ -86,7 +86,7 @@ with self; {
       rev = "da2195fecac5442851dbc3ac3b6e1d805ced6c05";
     };
     info = {
-      version = "1.0.0";
+      version = "0.0.0";
     };
   };
   
